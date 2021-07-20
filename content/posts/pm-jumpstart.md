@@ -1,6 +1,6 @@
 +++
 title = "项目管理（PM）超车笔记"
-date = 2021-07-14T07:28:59+08:00
+date = 2021-07-19T01:01:00+08:00
 readingTime = true
 categories = ["程序员成长"]
 toc = true
