@@ -60,13 +60,17 @@ draft = false
 
 ![基金](/images/stock/基金.png#center)
 
-基金的种类繁多，可以从不同角度划分： ETF 或非 ETF，主动型或被动型，还可以根据不同的资产配置划分（如上图）。ETF（Exchange Traded Fund） 是指在交易所挂牌上市的基金，其中一大类是`指数基金` Index Fund，追踪股票指数 [^1]（背后是一篮子股票 [^2]），还可以有细分领域，还有反向，加杠杆，两倍，三倍，等花样玩法。
+基金的种类繁多，可以从不同角度划分： ETF 或非 ETF，主动型或被动型，还可以根据不同的资产配置划分（如上图）。
 
-除了股票指数，ETF 也包括追踪黄金，石油，期货，债卷，或者单纯就是某个指数（恐慌指数，肥胖指数），体育博彩，等等。ETF 外的基金可以统称为普通基金，包括共同基金 Mutual Fund/开放式基金 Listed Open-Ended Fund，通过不同公开金融渠道（银行，金融平台等）购买。
+ETF（Exchange Traded Fund） 是指在交易所挂牌上市的基金，其中一大类是`指数基金` Index Fund，追踪股票指数 [^1]（背后是一篮子股票 [^2]），还可以有细分领域，还有反向，加杠杆，两倍，三倍，等花样玩法。
+
+除了股票指数，ETF 也包括追踪黄金，石油，期货，债卷，加密货币，或者单纯就是某个指数（恐慌指数，肥胖指数），体育博彩，等等，指数基金更详细的介绍参考[^3]。
+
+ETF 外的基金可以统称为普通基金，包括共同基金 Mutual Fund/开放式基金 Listed Open-Ended Fund，通过不同公开金融渠道（银行，金融平台等）申购和赎回购。相对而言，ETF 交易方便，费用低。
 
 指数基金属于被动型基金，其投资组合规则是固定的（如 SP500），由程序自动交易，一天只交易一次，避免了频繁交易（即使股市崩盘）和多笔手续费，可以定期定投。 主动型基金有基金经理管理，由他制定投资组合，同样有不同的资产类型：股票，黄金，石油，期货，债卷，现金，外汇等等，以及不同的配置，所以主动型基金其实买的是基金经理/金融专家，如目前管理 [ARK ETF](https://ark-invest.com/) 的大红人“[木头姐](https://zh.wikipedia.org/wiki/%E5%98%89%E8%8A%99%E8%93%AE%C2%B7%E4%BC%8D%E5%BE%B7)”。
 
-普通人选择基金的考虑点，主要是 AUM（基金管理的资产额），费用（托管费 Custodial Fee，管理费 Expense Ratio，等等），操作方式（主动/被动）以及基金的表现（长期回报）。ETF/指数基金买卖价和其实际价值是有差价的[^3]，不过对于追踪大盘的指数基金可以忽略，投资回报是靠其背后的投资组合而不是通过买卖指数基金本身来赚钱[^4]，例如，买入 QQQ，就是买一大堆世界上“最赚钱”的高科技大公司，长期持有，资本随经济增长而增长。
+普通人选择基金的考虑点，主要是 AUM（基金管理的资产额），费用（托管费 Custodial Fee，管理费 Expense Ratio，等等），操作方式（主动/被动）以及基金的表现（长期回报）。ETF/指数基金买卖价和其实际价值是有差价的[^4]，不过对于追踪大盘的指数基金可以忽略，投资回报是靠其背后的投资组合而不是通过买卖指数基金本身来赚钱[^5]，例如，买入 QQQ，就是买一大堆世界上“最赚钱”的高科技大公司，长期持有，资本随经济增长而增长。
 
 -   QQQ 的成分：
     ![QQQ的成分](/images/stock/QQQ成分.png#center)
@@ -79,5 +83,6 @@ draft = false
 
 [^1]: [（李永乐）股票指数是什么？](https://www.bilibili.com/video/BV1h7411d7ea)
 [^2]: [ETF 股价是如何追踪指数的？](https://www.youtube.com/watch?v=pkw1YvcSqyk)
-[^3]: [每隻 ETF 都有二個價格：净值和折溢价](https://www.youtube.com/watch?v=CYJPOHiC9gA)
-[^4]: [10 Top-Performing ETFs of the Past Decade](https://www.nasdaq.com/articles/10-top-performing-etfs-of-the-past-decade-2020-12-09)
+[^3]: [指数基金有哪几种？选择哪一种投资最适合？](https://www.youtube.com/watch?v=-5fjaIM7QTw)
+[^4]: [每隻 ETF 都有二個價格：净值和折溢价](https://www.youtube.com/watch?v=CYJPOHiC9gA)
+[^5]: [10 Top-Performing ETFs of the Past Decade](https://www.nasdaq.com/articles/10-top-performing-etfs-of-the-past-decade-2020-12-09)
