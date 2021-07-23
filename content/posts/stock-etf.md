@@ -66,7 +66,7 @@ draft = false
 
 指数基金属于被动型基金，其投资组合规则是固定的（如 SP500），由程序自动交易，一天只交易一次，避免了频繁交易（即使股市崩盘）和多笔手续费，可以定期定投。 主动型基金有基金经理管理，由他制定投资组合，同样有不同的资产类型：股票，黄金，石油，期货，债卷，现金，外汇等等，以及不同的配置，所以主动型基金其实买的是基金经理/金融专家，如目前管理 [ARK ETF](https://ark-invest.com/) 的大红人“[木头姐](https://zh.wikipedia.org/wiki/%E5%98%89%E8%8A%99%E8%93%AE%C2%B7%E4%BC%8D%E5%BE%B7)”。
 
-普通人选择基金的考虑点，主要是AUM（基金管理的资产额），费用（托管费 Custodial Fee，管理费 Expense Ratio，等等），操作方式（主动/被动）以及基金的表现（长期回报）。ETF/指数基金买卖也是有差价的[^3]，不过对于大盘的指数基金可以忽略不计，投资回报是靠其背后的投资组合而不是通过买卖指数基金本身来赚钱[^4]，例如，买入 QQQ，就是买一大堆世界上“最赚钱”的高科技大公司，长期持有，资本随经济增长而增长。
+普通人选择基金的考虑点，主要是 AUM（基金管理的资产额），费用（托管费 Custodial Fee，管理费 Expense Ratio，等等），操作方式（主动/被动）以及基金的表现（长期回报）。ETF/指数基金买卖价和其实际价值是有差价的[^3]，不过对于追踪大盘的指数基金可以忽略，投资回报是靠其背后的投资组合而不是通过买卖指数基金本身来赚钱[^4]，例如，买入 QQQ，就是买一大堆世界上“最赚钱”的高科技大公司，长期持有，资本随经济增长而增长。
 
 -   QQQ 的成分：
     ![QQQ的成分](/images/stock/QQQ成分.png#center)
@@ -77,7 +77,7 @@ draft = false
 -   QQQ 的表现：  
     ![QQQ表现](/images/stock/QQQ表现.png#center)
 
-[^1]: [股票指数是什么？](https://www.bilibili.com/video/BV1h7411d7ea)
+[^1]: [（李永乐）股票指数是什么？](https://www.bilibili.com/video/BV1h7411d7ea)
 [^2]: [ETF 股价是如何追踪指数的？](https://www.youtube.com/watch?v=pkw1YvcSqyk)
 [^3]: [每隻 ETF 都有二個價格：净值和折溢价](https://www.youtube.com/watch?v=CYJPOHiC9gA)
 [^4]: [10 Top-Performing ETFs of the Past Decade](https://www.nasdaq.com/articles/10-top-performing-etfs-of-the-past-decade-2020-12-09)
