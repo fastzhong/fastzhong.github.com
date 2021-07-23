@@ -1,10 +1,10 @@
 +++
 title = "股市黄金：指数基金"
-date = 2021-07-11T07:28:59+08:00
+date = 2021-07-22T07:28:59+08:00
 readingTime = true
 categories = ["投资 & 股票"]
 toc = false
-draft = true
+draft = false
 +++
 
 <!--more-->
@@ -21,9 +21,26 @@ draft = true
 
 ![指数基金](/images/stock/指数基金.webp#center)
 
+指数基金/ETF 的特点，必须了解（更详细的知识见文末）：
+
+-   <span class="kwd2">指数基金很被动</span>  
+    这应该是指数基金最大的特点/好处，不需要操作，躺赢（避免散户买了就跌，卖了就涨），虽然指数基金已经分散多只股票上，降低了个股风险，但是不能避免系统性风险
+
+-   ETF 的成分不能挑选
+
+-   ETF，特别是小盘的 ETF，依旧有下市的可能
+
+-   ETF 有两价格：净值（成本价）和市价，价差称为折溢价
+
+-   ETF 需缴纳额外费用（不要乱投哦）
+
+-   ETF 没有涨跌幅限制
+
+-   ETF 筹码不固定
+
 投资一定伴随风险，那么
 
-<span class="kwd2">⚠️ 指数基金有什么风险</span>
+<span class="kwd2">⚠️ 指数基金最重大的风险</span>
 
 让我们看看下面这张图表：
 
@@ -33,23 +50,34 @@ draft = true
 
 所以对抗风险的策略就是：
 
-<span class="kwd2">👏 买入，持有，打死不卖</span>  
-<span class="kwd2">👏 买入，持有，打死不卖</span>  
-<span class="kwd2">👏 买入，持有，打死不卖</span>
+<span class="kwd2">👏 买入回报最好的指数基金，持有，打死不卖</span>  
+<span class="kwd2">👏 买入回报最好的指数基金，持有，打死不卖</span>  
+<span class="kwd2">👏 买入回报最好的指数基金，持有，打死不卖</span>
 
-附：基金背景知识
+附：`基金`、`ETF` 和`股票指数`的基础知识
 
 基金其实就是大家凑钱来投资，主要分为私募和公募，私募不对外发售，针对有钱且承担风险的投资大佬，操作比较风骚，期权、期货、做空、恶意收购，怎么赚钱怎么来。普通人能接触的是公募基金，可在公开市场上购买，相对私募有市场监管。
 
 ![基金](/images/stock/基金.png#center)
 
-ETF 种类很多，一大类是股票指数基金 Index Fund（背后是一篮子股票），也有背后是黄金，石油，期货，债卷，或者单纯就是某个指数（恐慌指数，肥胖指数），体育博彩，等等，还可以是各式各样的细分领域，还有反向，加杠杆，两倍，三倍，等花样玩法。对于各类基金，普通人选择考虑点，主要是年费（托管费 Custodial Fee + 管理费 Expense Ratio）和基金操作方式。ETF 买卖也是有差价的，不过好的 ETF 这个基本忽略不计，投资回报是靠其背后的投资组合而不是通过买卖 ETF 来赚钱，买 SP500，就是买一大堆“最赚钱”的大公司。普通基金有基金经理管理，由他制定投资组合，所以普通基金其实买的是基金经理/金融专家，如目前最著名 [ARK](https://ark-invest.com/) 的“木头姐”。指数基金投资组合的规则是固定的（如 SP500），由程序自动交易，属于被动型管理，一天只交易一次，避免了频繁交易（即使股市崩盘）和多笔手续费，可以定期定投。
+基金的种类繁多，可以从不同角度划分： ETF 或非 ETF，主动型或被动型，还可以根据不同的资产配置划分（如上图）。ETF（Exchange Traded Fund） 是指在交易所挂牌上市的基金，其中一大类是`指数基金` Index Fund，追踪股票指数 [^1]（背后是一篮子股票 [^2]），还可以有细分领域，还有反向，加杠杆，两倍，三倍，等花样玩法。
 
-QQQ 的成分：
-![QQQ的成分](/images/stock/QQQ成分.png#center)
+除了股票指数，ETF 也包括追踪黄金，石油，期货，债卷，或者单纯就是某个指数（恐慌指数，肥胖指数），体育博彩，等等。ETF 外的基金可以统称为普通基金，包括共同基金 Mutual Fund/开放式基金 Listed Open-Ended Fund，通过不同公开金融渠道（银行，金融平台等）购买。
 
-QQQ 的特质：
-![QQQ的特质](/images/stock/QQQ特质.png#center)
+指数基金属于被动型基金，其投资组合规则是固定的（如 SP500），由程序自动交易，一天只交易一次，避免了频繁交易（即使股市崩盘）和多笔手续费，可以定期定投。 主动型基金有基金经理管理，由他制定投资组合，同样有不同的资产类型：股票，黄金，石油，期货，债卷，现金，外汇等等，以及不同的配置，所以主动型基金其实买的是基金经理/金融专家，如目前管理 [ARK ETF](https://ark-invest.com/) 的大红人“[木头姐](https://zh.wikipedia.org/wiki/%E5%98%89%E8%8A%99%E8%93%AE%C2%B7%E4%BC%8D%E5%BE%B7)”。
 
-QQQ 的表现：
-![QQQ表现](/images/stock/QQQ表现.png#center)
+普通人选择基金的考虑点，主要是AUM（基金管理的资产额），费用（托管费 Custodial Fee，管理费 Expense Ratio，等等），操作方式（主动/被动）以及基金的表现（长期回报）。ETF/指数基金买卖也是有差价的[^3]，不过对于大盘的指数基金可以忽略不计，投资回报是靠其背后的投资组合而不是通过买卖指数基金本身来赚钱[^4]，例如，买入 QQQ，就是买一大堆世界上“最赚钱”的高科技大公司，长期持有，资本随经济增长而增长。
+
+-   QQQ 的成分：
+    ![QQQ的成分](/images/stock/QQQ成分.png#center)
+
+-   QQQ 的特质：  
+    ![QQQ的特质](/images/stock/QQQ特质.png#center)
+
+-   QQQ 的表现：  
+    ![QQQ表现](/images/stock/QQQ表现.png#center)
+
+[^1]: [股票指数是什么？](https://www.bilibili.com/video/BV1h7411d7ea)
+[^2]: [ETF 股价是如何追踪指数的？](https://www.youtube.com/watch?v=pkw1YvcSqyk)
+[^3]: [每隻 ETF 都有二個價格：净值和折溢价](https://www.youtube.com/watch?v=CYJPOHiC9gA)
+[^4]: [10 Top-Performing ETFs of the Past Decade](https://www.nasdaq.com/articles/10-top-performing-etfs-of-the-past-decade-2020-12-09)
