@@ -1,6 +1,6 @@
 +++
 title = "Kubernetes 工具"
-date = 2010-10-08T05:08:47+08:00
+date = 2010-01-28T08:08:08+08:00
 readingTime = true
 categories = ["Cloud Native"]
 tags = ["kubernetes"]

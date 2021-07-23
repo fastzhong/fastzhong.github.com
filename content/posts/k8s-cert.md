@@ -1,6 +1,6 @@
 +++
 title = "CKA & CKAD"
-date = 2010-10-30T06:08:47+08:00
+date = 2010-01-26T08:08:08+08:00
 readingTime = true
 categories = ["Cloud Native"]
 tags = ["kubernetes"]

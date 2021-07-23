@@ -1,6 +1,6 @@
 +++
 title = "Kubernetes Pod"
-date = 2010-10-06T06:08:47+08:00
+date = 2010-01-30T08:08:08+08:00
 readingTime = true
 categories = ["Cloud Native"]
 tags = ["kubernetes"]

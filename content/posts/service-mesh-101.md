@@ -1,6 +1,6 @@
 +++
 title = "Service Mesh 101"
-date = 1999-07-01T13:08:47+08:00
+date = 1999-01-01T08:08:08+08:00
 readingTime = true
 categories = ["系统设计 & 架构"]
 tags = ["microservices"]
@@ -10,26 +10,25 @@ draft = true
 
 <!--more-->
 
+3-tier  
+microservices
+service discovery
+container/k8s - service
+service mesh
+connectivity  
+ security  
+ monitoring
 
-3-tier        
-microservices 
-service discovery 
-container/k8s - service 
-service mesh 
-    connectivity  
-    security   
-    monitoring   
-
-mTLS 
+mTLS
 latency-aware load balancing  
-retries           
-traffic shifting 
-circuit breaking   
-observability  
+retries  
+traffic shifting
+circuit breaking  
+observability
+
 ## 服务网格（Service Mesh ）是什么
 
 s
-
 
 Service Mesh 是在 networking 层和 application 层之间的系统基础设施，实现如下功能：
 
@@ -48,6 +47,4 @@ Service Mesh 是在 networking 层和 application 层之间的系统基础设施
 
 Service Mesh 最早的技术实现者有 Linkd，Envoy，到现在著名的 Istio，其相关的生态
 
-
-
-dapr 
+dapr

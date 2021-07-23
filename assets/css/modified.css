@@ -71,3 +71,21 @@ a {
   right: 0;
   top: 50%;
 }
+
+img[src$='#center']
+{
+    display: block;
+    margin: 0.7rem auto;
+}
+
+img[src$='#left']
+{
+    float:left;
+    margin: 0.7rem;
+}
+
+img[src$='#right']
+{
+    float:right;
+    margin: 0.7rem;
+}
