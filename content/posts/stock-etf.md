@@ -40,7 +40,7 @@ draft = false
 
 投资一定伴随风险，那么
 
-<span class="kwd2">⚠️ 指数基金最重大的风险</span>
+<span class="kwd2">⚠️ 指数基金最重大的风险是什么</span>
 
 让我们看看下面这张图表：
 
