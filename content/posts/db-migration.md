@@ -355,7 +355,7 @@ $ mvn liquibase:generateChangeLog
 $ mvn liquibase:diff
 ```
 
-💡 这个还蛮有用的，例如可以通过 Hibernate Entities 在本地数据库自动生成表结构，然后和生产环境中的数据库比较 - 但是不能做到数据库和changeLogFile直接比较。
+💡 这个还蛮有用的，例如可以通过 Hibernate Entities 在本地数据库自动生成表结构，然后和生产环境中的数据库比较 - 但是不能做到数据库和 changeLogFile 直接比较。
 
 如果觉得 XML 繁琐的话，Liquibase 也支持 Json，YAML 格式。
 
@@ -384,4 +384,14 @@ $ mvn liquibase:diff
 
 -   [Liquibase 商业版](https://www.liquibase.com/product)
 
-<i class="fas fa-map-marker-alt"></i> 小结：两者差别不大，因功能多，个人“稍微”倾向 Liquibase
+<i class="fas fa-map-marker-alt"></i> 小结：两者差别不大，因功能多，个人“稍微”倾向 Liquibase。
+
+---
+
+💬 可关注新的开源项目[bytebase](https://github.com/bytebase/bytebase)，作为一个更为全面的数据库 schema 管理工具：
+
+-   providing UX and workflow optimized for the collaboration among DBAs and Developers like how <span class="label">Figma</span> delivers such an experience to Designers, Product Managers and Developers
+
+-   deliver an end-to-end integration between schema management and VCS like how <span class="label">Terraform</span> delivers such an experience for managing cloud infrastructure)
+
+-   gather info from the CI context and catch signals from the database instance to provide a holistic view of the schema state across all development environments, spanning all history timelines

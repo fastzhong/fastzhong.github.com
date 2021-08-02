@@ -17,65 +17,65 @@ Markdown 就是一种轻量级的标记语言（Lightweight Markup Language）�
 
 ## Markdown 语法
 
-### 大小不同的标题 Heading
+### 标题 Headers
 
 用 `#` 来表示标题：
 
 ```markdown
-# 大小不同的标题 Heading
+# 标题 1 大小不同的标题
 
-## 标题 1 Heading 1
+## 标题 2 Heading 2
 
-### 标题 2 Heading 2
+### 标题 3 Heading 3
 
-#### 标题 3 Heading 3
+#### 标题 4 Heading 4
 
-##### 标题 4 Heading 4
+##### 标题 5 Heading 5
 
-###### 标题 5 Heading 5
+###### 标题 6 Heading
 ```
 
 💬 效果就不演示了
 
-### 黑体字 strong
+### 字体 Emphasis
 
-用`**`或者`__`来表记黑体：
+-   黑体字 strong：用`**`或者`__`来表记黑体
 
-```markdown
-这是个**黑体字 strong**
-```
+    ```markdown
+    这是个**黑体字 strong**
+    ```
 
-<span class="label">效果</span><font color="orange">**黑体字 strong**</font>
+-   斜体字 italic：用 `*` 或者 `_` 来表示斜体
 
-### 斜体字 italic
+    ```markdown
+    这是个*斜体字 italic*
+    ```
 
-用 `*` 或者 `_` 来表示斜体：
+-   删除线 strikethrought： `~~`
 
-```markdown
-这是个*斜体字 italic*
-```
+    ```markdown
+    ~~加一条删除线 strikethrought~~
+    ```
 
-<span class="label">效果</span><font color="orange"> _斜体字 italic_</font>
+<span class="label">效果</span>
 
-### 删除线 strikethrought
+-   **<font color="orange">黑体字 strong</font>**
+-   <font color="orange"> _斜体字 italic_</font>
+-   <font color="orange">~~加一条删除线 strikethrought~~</font>
 
-`~~`
-
-```markdown
-~~加一条删除线 strikethrought~~
-```
-
-<span class="label">效果</span><font color="orange">~~加一条删除线 strikethrought~~</font>
-
-### 引用块
+### 引用块 blockquotes
 
 ```markdown
-> 道可，道非，常道
+> 道德经（一级引用）
+>
+> > 道可，道非，常道（二级引用）
 ```
 
 <span class="label">效果</span><font color="orange">
 
-> 道可，道非，常道
+> 道德经（一级引用）
+>
+> > 道可，道非，常道（二级引用）
 
 </font>
 
@@ -151,6 +151,20 @@ Markdown 就是一种轻量级的标记语言（Lightweight Markup Language）�
 
 <span class="label">效果</span>![Singapore](http://www.rw-designer.com/icon-image/924-48x48x32.png)
 
+### 脚注
+
+页内链接
+
+```text
+你可以使用 Markdown[^1]写文档；Kubernetes[^k]非常 NB，你确定不想玩玩嘛
+[^1]: Markdown 一种简易的纯文本标记语言
+[^k]: 云上的操作系统
+```
+
+<span class="label">效果</span>用 Markdown[^1]写文档；Kubernetes[^k]非常 NB，你确定不想玩玩嘛  
+[^1]: Markdown 一种简易的纯文本标记语言
+[^k]: 云上的操作系统
+
 ### 表格 table
 
 略微复杂点，`｜` 控制分列，`-` 控制分行，`:` 控制对齐方式，左右或居中。
@@ -202,18 +216,6 @@ markdown 支持在特殊字符前面插入 `\`，插入之后，将不再解析�
 <span class="label">效果</span>
 
 ---
-
-### 脚注
-
-```text
-你可以使用 Markdown[^1]写文档；Kubernetes[^k]非常 NB，你确定不想玩玩嘛
-[^1]: Markdown 一种简易的纯文本标记语言
-[^k]: 云上的操作系统
-```
-
-<span class="label">效果</span>用 Markdown[^1]写文档；Kubernetes[^k]非常 NB，你确定不想玩玩嘛  
-[^1]: Markdown 一种简易的纯文本标记语言
-[^k]: 云上的操作系统
 
 ## 扩展
 
@@ -279,6 +281,14 @@ Typora 支持简单的 Markdown 画图，但至今我还没有看到比较好的
 
 -   [hugo](https://gohugo.io/)
     静态网站生成器，支持 markdown 来编写 blog，目前在用
+
+-   [vuepress](https://vuepress.vuejs.org/)
+    静态网站生成器，支持 markdown 来编写 软件文档，目前在用（新版 Vuepress Next 和 VitePress 开发中）
+
+-   静态网站资源
+
+    -   [Site Generators](https://jamstack.org/generators/)
+    -   [Headless CMS](https://jamstack.org/headless-cms/)
 
 -   [tableconvert](https://tableconvert.com/)
     表格转换工具
