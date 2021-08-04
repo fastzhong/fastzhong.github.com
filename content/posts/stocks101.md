@@ -81,7 +81,7 @@ toc = true
 
 ![good-bye](/images/stock/good-bye.jpg#center)
 
-> 🔥🔥🔥 [CLEC 一億元的投資理財講座（二）你絕對不能錯過 2021 年 1 月 9 日 CLEC 投資理財教育學院](https://www.youtube.com/watch?v=SKupWmBAbXg)（B 站 [上](https://www.bilibili.com/video/BV1eo4y1d74f)、[下](https://www.bilibili.com/video/BV16o4y197DQ)）
+> 👍 [CLEC 一億元的投資理財講座（二）你絕對不能錯過 2021 年 1 月 9 日 CLEC 投資理財教育學院](https://www.youtube.com/watch?v=SKupWmBAbXg)（B 站 [上](https://www.bilibili.com/video/BV1eo4y1d74f)、[下](https://www.bilibili.com/video/BV16o4y197DQ)）
 
 ![投资要禅定](/images/stock/投资要禅定.png)
 
