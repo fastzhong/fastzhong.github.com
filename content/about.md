@@ -11,7 +11,7 @@ author = "老火靓汤"
   <input type="checkbox" checked="checked"> 攒过机器<br>
   <input type="checkbox" checked="checked"> 修过电脑<br>
   <input type="checkbox" checked="checked"> 创业但失败<br>
-  <input type="checkbox" checked="checked"> 带领过百人开发团队<br>
+  <input type="checkbox" checked="checked"> 带领过几十至百人的开发团队<br>
   <input type="checkbox" checked="checked"> 有一只可爱的 🐶<br>
   <input type="checkbox" checked="checked"> 会几道拿手菜<br>
   <input type="checkbox" checked="checked"> 各种文化衫<br>

@@ -150,6 +150,8 @@ toc = true
     what makes you think this company will be successful? What do you like most working in this company?
 ```
 
+参考：[反向面试](https://github.com/yifeikong/reverse-interview-zh)
+
 ## 技术准备
 
 ### 算法编程
